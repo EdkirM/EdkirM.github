@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Indique sus preferencias</legend>
+            Elija una fecha: <input type="date" name="fecha"><br />
+            Elije un archivo: <input type="file" name="archivo" value="Escoger" ><br />
+            <input type="radio" name="procesador" value="procesAMD"> AMD
+            <input type="radio" name="procesador" value="procesinteli5"> Intel i5
+            <input type="radio" name="procesador" value="procesinteli7"> Intel i7
+            <br />
+        </fieldset>
+        <fieldset>
+            <legend> Indique sus preferncias por favor</legend>
+            <input type='radio' name='asignatura' value='asignaturamatematicas'> Matemáticas
+            <input type='radio' name='asignatura' value='asignaturahistoria'> Historia
+            <input type='radio' name='asignatura' value='asignaturageometria'> Geogrrafía
+            <input type='radio' name='asignatura' value='asignaturalengua'> Lengua
+            <br />
+            Nombre<input type='text' name='nombre' required><br />
+            Apellidos<input type='text' name='apellidos' required><br />
+            Direccion<input type='text' name='direccion' required><br />
+            <br />
+            Elija un color:<input type="color"><br />
+            <textarea rows='6' cols='59'>Utilice este cuadro para escribir</textarea> <br />
+            Elija una fecha: <input type="date"><br/>
+            <select name="idioma">
+                <option value="ingles">Inglés</option>
+                <option value="aleman">Alemán</option>
+                <option value="frances">Francés</option>
+            </select>
+        <br/>
+        Elija una hora:<input type="time"> <br/>
+        <input type="checkbox" name="sexo" value="sexomujer"> Mujer
+        <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+        <br/>
+        <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

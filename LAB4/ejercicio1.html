@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="" method="get">
+    <p>
+        Nombre: <input type="text" name="nombre" maxlength="50" required><!--"requierd" Es para exigir que el campo sea llenado--> <br>
+    </p>  
+    <p>
+        Apellidos: <input type="text" name="apellidos" maxlength="50">
+    </p>
+    <p>
+        Género:
+        <input type="radio" name="sexo" value="h">hombre
+        <input type="radio" name="sexo" value="m">mujer
+        <input type="radio" name="sexo" value="t">transgenero
+        <input type="radio" name="sexo" value="nb">no binario
+    </p>
+    <p>
+        Correo: <input type="text" name="Correo" maxlength="50"><br>
+        Email: <input type="text" name>
+    </p>
+    <p>
+        <input type="checkbox" name="condiciones" > Declaro haber leido las condiciones 
+    </p>
+    <p>
+        <input type="submit" value="Enviar"/>
+    </p>
+</form>
+</body>
+</html>
